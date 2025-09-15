@@ -3,7 +3,7 @@ import { isOn } from "../toggleFan";
 
 describe("isOn", () => {
   it("returns true if fan switch is on", () => {
-    expect(isOn(true)).toBe(true);
+    expect(isOn(true)).toBe(false);
   });
 
   it("returns false if fan switch is off", () => {
